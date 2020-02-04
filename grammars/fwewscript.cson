@@ -33,7 +33,7 @@
   {
     'comment': 'cond'
     'match': '\\b(has|is|starts|ends|first|last|like)\\b'
-    'name': 'keyword.other.fwewscript'
+    'name': 'support.function.builtin.fwewscript'
   }
   {
     'comment': 'operator'
