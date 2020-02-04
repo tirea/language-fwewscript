@@ -22,7 +22,7 @@
   }
   {
     'comment': 'functions'
-    'match': '/(list|random|update|commands|help|exit)'
+    'match': '^/(list|random|update|commands|help|exit)'
     'name': 'support.function.builtin.fwewscript'
   }
   {
@@ -32,7 +32,7 @@
   }
   {
     'comment': 'cond'
-    'match': 'has|is|starts|ends|first|last|like'
+    'match': '\\b(has|is|starts|ends|first|last|like)\\b'
     'name': 'keyword.other.fwewscript'
   }
   {
@@ -42,7 +42,7 @@
   }
   {
     'comment': '/set and /unset'
-    'match': '(/set|/unset)\\s+(.+)'
+    'match': '^(/set|/unset)\\s+(.+)$'
     'captures':
       '1':
         'name': 'support.function.builtin.fwewscript'
